@@ -1,0 +1,55 @@
+/* src/styles/booklist.css */
+
+.book-list-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.book-list-container h2 {
+    margin-bottom: 1.5rem;
+    color: #343a40;
+}
+
+.book-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.book-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.book-author {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.book-actions {
+    display: flex;
+    align-items: center;
+}
+
+.book-actions .btn {
+    margin-right: 0.5rem;
+}
+
+.book-actions .btn:last-child {
+    margin-right: 0;
+}
